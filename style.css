@@ -1,86 +1,129 @@
-<style>
-
 body {
-background-color: 4c4g3d;
+    position: relative; 
+    font-family: 'Vollkorn', serif;
+  }
+  p{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  button{
+    border-radius: 10px 0 10px 0;
 }
-body {
-  font-family: Ariel, sans-serif;
-  background-color: pink;
-}
-
-.header-section {
-  background-image: url("https://www.dropbox.com/s/w0g08frxke75eg6/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash%20%281%29.jpg?raw=1");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #45484B;
-  height: 75vh;
-  width: 100%;
+img{
+width:100%;
+height: auto;
 }
 
-header {
-h1;color:black;
-font-size:20px;
-font-family:Verdana,Helvetica;
-background-color: white;
-text-align:center;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 20px;
-box-shadow: 0 4px 6px rgba(4, 6, 4, 0.1);
+
+.right{
+float: right;
 }
-header img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 10px;
+
+#about {
+  padding-top:50px;
+  height:auto;
+  color: #000;
+  background-color: #fff;}
+#portfolio {
+  padding:50px 0px;
+  height:auto;
+  color: #fff;
+  background-color: #001923;}
+#hireme {
+  padding:50px 0px;
+  height:auto;
+  color: #fff;
+  background-color: #499936;}
+#footer1 {padding:50px 0px;height:auto;color: #fff; background-color: #001923;}
+
+.fa-code{
+  color:#4791d2;
+}
+.fa-diamond{
+  display:block;
+  padding-top: 10px;
+  color:#001923;
+}
+.fa-code-port{
+  display:block;
   
 }
-nav li {
-  margin-right: 20px;
+
+.fa-twitter{
+color: #0084b4;
+}
+.fa-facebook{
+color:#3b5998;
+}
+.fa-youtube{
+color:#bb0000;
+}
+.fa-linkedin{
+color:#0077B5;
+}
+.fa-instagram{
+color:#cd486b;
 }
 
-nav a {
-  text-decoration: none;
-  color: #555;
-  font-size: 1.2em;
-  transition: color 0.3s ease-in-out;
+.fa-codepen{
+color: #001923;
 }
 
-nav a:hover {
-  color: #000;
+.fa-github{
+color: #49993e;
+
 }
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.progress {
+height: 35px;
+
+}
+.progress .codes {
+line-height: 35px;
+padding: 0;
+margin: 0 0 0 20px;
+text-transform: uppercase;
+}
+.progress .codes .val {
+float: right;
+margin: 0 20px 0 0;
 }
 
-section {
-  margin-bottom: 30px;
+.progress-bar {
+text-align: left;
+transition-duration: 3s;
 }
 
-section h2 {
-  font-size: 1.8em;
-  margin-bottom: 10px;
+
+.image {
+display: block;
+width: 100%;
+height: auto;
 }
-section ul {
-  list-style: disc;
-  margin-left: 20px;
-  margin-bottom: 10px;
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 15.5px;
+right: 0;
+height: auto;
+width: 91%;
+opacity: 0;
+transition: .5s ease;
+background-color: #ff5f19;
 }
-section li {
-  margin-bottom: 5px;
+
+.col-lg-4:hover .overlay {
+opacity: 1;
 }
-portfolio {
-  background-color: white;
-  padding: 20px;
+
+
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
 }
-footer {
-background-color: white;
-h2;font-size:12px;
-}
-</style>
