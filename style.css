@@ -1,0 +1,86 @@
+<style>
+
+body {
+background-color: 4c4g3d;
+}
+body {
+  font-family: Ariel, sans-serif;
+  background-color: pink;
+}
+
+.header-section {
+  background-image: url("https://www.dropbox.com/s/w0g08frxke75eg6/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash%20%281%29.jpg?raw=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #45484B;
+  height: 75vh;
+  width: 100%;
+}
+
+header {
+h1;color:black;
+font-size:20px;
+font-family:Verdana,Helvetica;
+background-color: white;
+text-align:center;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(4, 6, 4, 0.1);
+}
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  
+}
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #000;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+section li {
+  margin-bottom: 5px;
+}
+portfolio {
+  background-color: white;
+  padding: 20px;
+}
+footer {
+background-color: white;
+h2;font-size:12px;
+}
+</style>
